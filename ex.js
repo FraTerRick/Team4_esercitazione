@@ -7,10 +7,10 @@ let persons= [
       favouriteFood: "pizza",
       favouriteFilm: "Iron Man",
       favouriteBook: "Harry Potter",
-      petName: "Cesare",}
-];
-let sebastian= [
-  { name: "Sebastian",
+      petName: "Cesare",
+    },
+    {
+    name: "Sebastian",
     surname: "Mocanasu",
     age: 21,
     city: "Sanfre'",
@@ -18,5 +18,6 @@ let sebastian= [
     favouriteFood: "Sushi",
     favouriteFilm: "Scary Movie",
     favouriteBook: "Psicology",
-    petName: "Togo",}
-];
+    petName: "Togo"
+    }
+  ]
