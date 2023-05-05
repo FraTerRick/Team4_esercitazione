@@ -7,5 +7,14 @@ let persons= [
       favouriteFood: "pizza",
       favouriteFilm: "Iron Man",
       favouriteBook: "Harry Potter",
-      petName: "Cesare",}
+      petName: "Cesare",},
+      { name : "Marco",
+      surname:"Ruberto",
+      age:30,
+      city:"Tricase",
+      hobby:"football",
+      favouriteFood:"parmigiana",
+      favouriteFilm:"Cinema Paradiso",
+      favoriteBook:"One Piece",
+      petName:"Scheggia"}
 ];
