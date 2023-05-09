@@ -54,4 +54,14 @@ let persons= [
       petName: "Luna"}
       ];
 
+// Print the team middle age.
 
+function middleAge(middle) {
+  let somma = 0;
+  for (let i = 0; i < middle.length; i++) {
+    somma += middle[i].age;
+  }
+  let membri = middle.length;
+  return somma / membri;
+}
+console.log(middleAge(persons));
