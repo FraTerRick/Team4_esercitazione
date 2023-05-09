@@ -110,3 +110,35 @@ function middleAge(middle) {
   return somma / membri;
 }
 console.log(middleAge(persons));
+
+// Print the team in alphabetical order (surname name)
+
+function sortObjectsArray(arr, prop) {
+  return arr.sort(function(a, b) {
+    if (a[prop] < b[prop]) {
+      return -1;
+    } else if (a[prop] > b[prop]) {
+      return 1;
+    } else {
+      return 0;
+    }
+  });
+}
+let order=sortObjectsArray(persons, "surname")
+console.log(order)
+
+// Print who has a pet (name petName).
+
+function findPet(array) {
+  let newArray = [];
+  for (let i = 0; i < array.length; i++) {
+    if (array[i].petName != 0) {
+      newArray.push(array[i].name + " ha un cane di nome " + array[i].petName);
+    } else {
+      newArray.push(array[i].name + " non ha un cane");
+    }
+  }
+  console.log(newArray);
+}
+
+findPet(persons);
