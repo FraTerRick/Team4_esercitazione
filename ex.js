@@ -142,3 +142,11 @@ function findPet(array) {
 }
 
 findPet(persons);
+
+// Print the team in age order (name age)
+
+persons.sort((a, b) => a.age - b.age);
+
+for (let i = 0; i < persons.length; i++) {
+  console.log(persons[i].name + " " + persons[i].age);
+}
