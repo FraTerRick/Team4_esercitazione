@@ -54,7 +54,7 @@ let persons= [
       petName: "Luna"}
       ];
 
-// Print the team middle age.
+// Print the team middle age function.
 
 function middleAge(middle) {
   let somma = 0;
