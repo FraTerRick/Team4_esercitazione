@@ -77,3 +77,25 @@ function findGame(array) {
 }
 
 findGame(persons);
+
+// Print if there are some members with the same name (name)
+
+function compareName(array) {
+   let element =[];
+   for (let i = 0; i < array.length; i++) {
+     for (let y = 0; y < array.length; y++) {
+      if (i == y) {
+        }else{
+          if (array[y].name == array[i].name) {
+            element.push(array[i].surname)
+            element.push(array[y].surname)
+          }
+        }
+      }
+   }
+  let element2 =[...new Set(element)];
+  console.log("queste persone hanno lo stesso nome"+" "+element2);
+}      
+
+compareName( persons);
+
