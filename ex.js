@@ -40,5 +40,3 @@ let persons= [
       favouriteBook: "Paradise Lost",
       petName: "Kiro"}
       ];
-
-
